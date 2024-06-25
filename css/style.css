@@ -1,0 +1,182 @@
+body{
+  overflow-x: hidden;
+}
+
+.header {
+    background-color: #333e48 !important;
+}
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: rgb(255, 255, 255); 
+  }
+
+.navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255);
+  }
+
+.ft{
+    color: rgb(255, 255, 255);
+}
+
+.bg-clr{
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+}
+.txt{
+    color: rgb(31, 27, 228);
+}
+
+.icons1{
+    color: rgb(255, 255, 255);
+}
+
+
+@media only screen and (max-width: 900px) {
+    .seachBar {
+        margin-top: 2px;
+        width: 100% !important;
+    }
+
+    .seachBar input {
+        width: 90% !important;
+    }
+
+
+}
+
+
+
+.fa-facebook-f:hover{
+    color: #4267B2;
+}
+.fa-twitter:hover{
+    color: #1DA1F2;
+}
+.fa-whatsapp:hover{
+    color: #25D366;
+}
+.fa-linkedin:hover{
+    color: #0072b1;
+}
+.fa-pinterest:hover{
+    color:  #c8232c;
+}
+.fa-instagram:hover{
+    color: #c8232c;
+}
+
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+.product-card:hover {
+    transform: scale(1.05);
+    border: 1px solid #000000;
+}
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+.product-info {
+    padding: 15px;
+}
+.product-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.product-price {
+    font-size: 1.2em;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+.product-buttons a {
+    margin-right: 5px;
+}
+
+
+/* meet the team */
+
+
+  
+  .section-heading {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: 64px;
+    color: #0e11ec;
+    margin: 0 0 70px;
+  }
+  
+  .container5 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .profile {
+    position: relative;
+    transition: all 0.3s;
+  }
+  
+  .profile:hover {
+    transform: translateY(25px);
+  }
+  
+  .profile img {
+    max-width: 100%;
+    border-radius: 50%;
+    border: 5px solid #f7f7f7;
+    filter: drop-shadow(-20px 0 10px rgba(0, 0, 0, 0.1));
+    cursor: pointer;
+  }
+
+  .profile:not(:first-child) img {
+    margin-left: -20px;
+  }
+  
+  .profile .name {
+    position: absolute;
+    background-color: #0e11ec;
+    color: #fff;
+    font-family: "Bebas Neue", cursive;
+    padding: 15px 30px;
+    border-radius: 100px;
+    bottom: -80px; left: 50%;
+    white-space: nowrap;
+    transform: translate(-50%, -50px);
+    letter-spacing: 1px;
+    font-size: 20px;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  
+  .profile .name::before {
+    content: "";
+    position: absolute;
+    width: 15px; height: 15px;
+    background-color: #0e11ec;
+    top: 0; left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  .profile img:hover + .name {
+    opacity: 1;
+    transform: translateX(-50%);
+    box-shadow: 0 10px 20px rgba(86, 86, 198, 0.3);
+  }
+
+  .hero-section {
+    background-image: url('../Images/header-top-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.display-4{
+    color: rgb(42, 8, 231);
+}
+

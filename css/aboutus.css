@@ -1,0 +1,12 @@
+
+.hero-section {
+    background-image: url('../Images/header-top-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.abtus{
+    color: rgb(42, 8, 231);
+}
+.txt-clr{
+    color: blue;
+}

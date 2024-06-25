@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Ubuntu&display=swap');
+body{
+margin:0;
+font-family: 'Oswald', sans-serif ;
+}
+
+.section3 button{background-image: linear-gradient(to right, #4b6cb7 0%, #182848  51%, #4b6cb7  100%)}
+.section3 button{
+            margin: 10px !important;
+            padding: 13px 25px !important;
+            text-align: center !important;
+            text-transform: uppercase !important;
+            transition: 0.5s !important;
+            background-size: 200% auto !important;
+            color: white !important;            
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2) !important;
+            border-radius: 20px !important;
+            display: inline !;
+            outline:0 !important;
+            border:0 !important;
+          }
+.section3 button:hover{
+            background-position: right center !important; 
+            color: #fff !important;
+            text-decoration: none !important;
+          }
+.section3{
+width:100% !important;
+overflow-x:hidden !important;
+white-space: nowrap !important;
+overflow-y:hidden !important;
+scrollbar-width:none !important;
+scroll-behavior: smooth !important;
+transition:0.5s !important;
+}
+.section3 #img-card{
+width: 300px !important;;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2) !important;
+display:inline-block !important;
+margin:16px !important;
+}
+.section3 #img-card img{
+width:100% !important;
+height:200px !important;
+}
+.section3 #img-card table{
+width:100% !important;
+padding:5px !important;
+}
+.section3 #img-card table td{
+padding:5px !important;
+width:50% !important;
+font-size:0.9em !important;
+}
+.section3 #img-card h3{
+text-align:left !important;
+padding-left:10px !important;
+}
+.section3 #img-card p{
+color:gray !important;
+padding-left:10px !important;
+text-align:left !important;
+font-size:0.7em !important;
+line-height:0px !important;
+}
+.section3 button{
+margin-top:5% !important;
+border-radius:20px !important;
+}
+.section3 .fa-angle-double-right{
+position:absolute !important;
+margin-top:15% !important;
+right:30px !important;
+background:#000 !important;
+padding:20px !important;
+border-radius:50% !important;
+color:#fff !important;
+}
+.section3 .fa-angle-double-left{
+position:absolute !important;
+margin-top:15% !important;
+left:30px !important;
+background:#000 !important;
+padding:20px !important;
+border-radius:50% !important;
+color:#fff !important;
+}
+.section3 .angles{
+opacity:0.7 !important;
+transition:0.5s !important;
+}
+.section3 .angles:hover{
+opacity:1 !important;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2) !important;
+}
+.section3 section{
+background:#e52d27 !important;
+width:150px !important;
+color:#fff !important;
+float:right !important;
+font-size:0.8em !important;
+position:relative !important;
+top:-24px !important;
+}
+@media (max-width:600px){
+ .section0 .custom-select{
+  width:200px !important;
+  margin-bottom:10px !important;
+  }
+.section3 #img-card{
+width:90% !important;
+
+}
+.section3 #img-card img{
+width:100% !important;
+}
+.section3 .fa-angle-double-right{
+position:absolute !important;
+margin-top:50% !important;
+right:30px !important;
+background:#000 !important;
+padding:20px !important;
+border-radius:50% !important;
+color:#fff !important;
+}
+.section3 .fa-angle-double-left{
+position:absolute !important;
+margin-top:50% !important;
+left:30px !important;
+background:#000 !important;
+padding:20px !important;
+border-radius:50% !important;
+color:#fff !important;
+}
+}
+.bg-clr{
+  padding-top: 10px;
+}
